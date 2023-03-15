@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* background */
+    --lightgreen: rgba(3, 155, 3, 0.966);
+    --lightgreen-2: rgb(1, 73, 1);
+    --lightgreen-3: rgba(1, 44, 1, 0.966);
+    --lightgreen-4: rgba(1, 22, 2, 0.925);
+
+    /* color */
+    --lightColor-1: rgba(211, 211, 211, 0.308);
+    --lightColor-2: rgba(211, 211, 211, 0.637);
+    --lightColor-3: rgb(211, 211, 211);
+    --lightColor-4: rgba(158, 152, 152, 0.075);
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: fit-content;
+    /* margin: auto; */
+}
+
+
+ul {
+    list-style-type: none;
+    /* padding: 1em 0; */
+}
+
+.training-learning li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.training-learning {
+    padding: 15px 0;
+    font-size: larger;
+    color: var(--lightColor-2);
+}
+
+.brand-name {
+    padding: 1em 0;
+    background-color: var(--lightgreen-4);
+    color: var(--lightColor-3);
+    letter-spacing: 4px;
+}
+
+.navbar {
+    background-color: var(--lightgreen);
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    background-color: var(--lightgreen-1);
+    color: white;
+    flex: 1;
+    padding: 1em 0;
+    font-weight: bold;
+     transition: all 3s;
+}
+
+.home {
+    background-color: var(--lightColor-3);
+    padding: 1em 0;
+    font-weight: bold;
+     transition: all 3s;
+}
+
+nav ul li:hover {
+    background-color: var(--lightColor-3);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--lightgreen-3);
+}
+
+.content-1 {
+    background-color: var(--lightgreen-3);
+    color: var(--lightColor-2);
+    text-align: center;
+    padding: 3em 1.5em;
+}
+
+.heading-1 {
+    font-size: 2.4em;
+    font-weight: 400;
+}
+
+.paragraph-1 {
+    font-size: larger;
+    padding: 1.5em 0;
+    font-style: italic;
+}
+
+.content-2 {
+    background-color: var(--lightgreen-4);
+    color: white;
+    padding: 3em 1.5em;
+}
+
+.heading-2 {
+    font-size: 2.4em;
+    font-weight: 400;
+}
+
+.content-3 {
+    background-color: var(--lightgreen-2);
+    color: var(--lightColor-3);
+    padding: 3em 1.5em;
+}
+
+button {
+    background-color: var(--lightgreen);
+    color: var(--lightgreen-4);
+    font-family: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1em 1.5em;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+}
